@@ -36,19 +36,19 @@ public class Solution {
         }
     }
 
-    // Переворот собственного стека (MyStack)
+    // переворот собственного стека (MyStack)
     public static void reverseStackWithMyStack(MyStack<String> stack) {
         MyStack<String> temp = new MyStack<>();
         while (!stack.isEmpty()) {
             temp.push(stack.pop());
         }
-        // Можно оставить результат во временном стеке, либо вернуть обратно
+        // можно оставить результат во временном стеке, либо вернуть обратно
         while (!temp.isEmpty()) {
             stack.push(temp.pop());
         }
     }
 
-    // Переворот стандартного стека (Stack)
+    // переворот стандартного стека (Stack)
     public static void reverseStackWithStdStack(java.util.Stack<String> stack) {
         java.util.Stack<String> temp = new java.util.Stack<>();
         while (!stack.isEmpty()) {

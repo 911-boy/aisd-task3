@@ -41,14 +41,14 @@ public class FrameMain extends JFrame{
         }
 
         // Пример данных
-        myStack.push("один");
-        myStack.push("два");
-        myStack.push("три");
-        myStack.push("четыре");
-        stdStack.push("один");
-        stdStack.push("два");
-        stdStack.push("три");
-        stdStack.push("четыре");
+        myStack.push("1");
+        myStack.push("2");
+        myStack.push("3");
+        myStack.push("4");
+        stdStack.push("1");
+        stdStack.push("2");
+        stdStack.push("3");
+        stdStack.push("4");
 
         updateInputTable();
 

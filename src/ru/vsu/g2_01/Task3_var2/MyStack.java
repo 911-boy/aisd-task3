@@ -1,4 +1,4 @@
-package ru.vsu.g2_1.Task3;
+package ru.vsu.g2_01.Task3_var2;
 
 public class MyStack<T> {
     private static class Node<T> {
@@ -44,7 +44,6 @@ public class MyStack<T> {
         return size;
     }
 
-    // вспомогательный метод для копирования стека в массив (для вывода)
     public Object[] toArray() {
         Object[] arr = new Object[size];
         Node<T> current = top;
